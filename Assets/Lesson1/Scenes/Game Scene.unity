@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -268,6 +268,7 @@ MonoBehaviour:
   _moveSpeed: 400
   _target: {fileID: 1288131054}
   _maxHealth: 2
+  _attackRate: 0
 --- !u!136 &448379404
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -464,6 +465,7 @@ MonoBehaviour:
   _moveSpeed: 400
   _target: {fileID: 1288131054}
   _maxHealth: 2
+  _attackRate: 0
 --- !u!1001 &997374619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -919,6 +921,8 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 4238326729472803317, guid: f09be3f3ad3e00b4c85abcae21ff4de0, type: 3}
   _muzzleTransform: {fileID: 1496380028}
   _rateOfFire: 0.7
+  _maxHealth: 0
+  _healthBar: {fileID: 0}
 --- !u!54 &1288131055
 Rigidbody:
   m_ObjectHideFlags: 0
